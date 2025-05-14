@@ -1,0 +1,7 @@
+entity.leaf:keycrate.name=§e§lCrate§r
+item.spawn_egg.entity.leaf:crate.name=Setup §e§lCrate§r
+tile.furry:furry_block.name=Furry Block
+entity.leaf:catgirl_npc.name=Catgirl NPC
+item.spawn_egg.entity.leaf:catgirl_npc.name=Spawn Catgirl NPC
+leaf:admin=Leaf Config Tools
+tile.leaf:code_block.name=Code Block
