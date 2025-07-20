@@ -1,0 +1,138 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.leafcrate",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Crate",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "Lid",
+					"parent": "Crate",
+					"pivot": [0, 9, 7]
+				},
+				{
+					"name": "Head",
+					"parent": "Lid",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 9, -7],
+							"size": [14, 5, 14],
+							"uv": {
+								"north": {"uv": [14, 14], "uv_size": [14, 5]},
+								"east": {"uv": [0, 14], "uv_size": [14, 5]},
+								"south": {"uv": [42, 14], "uv_size": [14, 5]},
+								"west": {"uv": [28, 14], "uv_size": [14, 5]},
+								"up": {"uv": [28, 14], "uv_size": [-14, -14]},
+								"down": {"uv": [42, 14], "uv_size": [-14, -14]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Tab",
+					"parent": "Lid",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-3, 4, -8],
+							"size": [6, 7, 1],
+							"uv": {
+								"north": {"uv": [47, 1], "uv_size": [8, 8]},
+								"east": {"uv": [46, 1], "uv_size": [1, 8]},
+								"south": {"uv": [56, 1], "uv_size": [8, 8]},
+								"west": {"uv": [55, 1], "uv_size": [1, 8]},
+								"up": {"uv": [54, 1], "uv_size": [-7, -1]},
+								"down": {"uv": [63, 1], "uv_size": [-7, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Base",
+					"parent": "Crate",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [14, 9, 14],
+							"uv": {
+								"north": {"uv": [14, 34], "uv_size": [14, 9]},
+								"east": {"uv": [0, 34], "uv_size": [14, 9]},
+								"south": {"uv": [42, 34], "uv_size": [14, 9]},
+								"west": {"uv": [28, 34], "uv_size": [14, 9]},
+								"up": {"uv": [28, 33], "uv_size": [-14, -14]},
+								"down": {"uv": [42, 33], "uv_size": [-14, -14]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Legs",
+					"parent": "Crate",
+					"pivot": [0, -7, 7],
+					"cubes": [
+						{
+							"origin": [-7, -2, -7],
+							"size": [4, 2, 4],
+							"uv": {
+								"north": {"uv": [4, 47], "uv_size": [4, 2]},
+								"east": {"uv": [0, 47], "uv_size": [4, 2]},
+								"south": {"uv": [12, 47], "uv_size": [4, 2]},
+								"west": {"uv": [8, 47], "uv_size": [4, 2]},
+								"up": {"uv": [8, 47], "uv_size": [-4, -4]},
+								"down": {"uv": [12, 47], "uv_size": [-4, -4]}
+							}
+						},
+						{
+							"origin": [-7, -2, 3],
+							"size": [4, 2, 4],
+							"uv": {
+								"north": {"uv": [52, 47], "uv_size": [4, 2]},
+								"east": {"uv": [48, 47], "uv_size": [4, 2]},
+								"south": {"uv": [60, 47], "uv_size": [4, 2]},
+								"west": {"uv": [56, 47], "uv_size": [4, 2]},
+								"up": {"uv": [56, 47], "uv_size": [-4, -4]},
+								"down": {"uv": [60, 47], "uv_size": [-4, -4]}
+							}
+						},
+						{
+							"origin": [3, -2, 3],
+							"size": [4, 2, 4],
+							"uv": {
+								"north": {"uv": [36, 47], "uv_size": [4, 2]},
+								"east": {"uv": [32, 47], "uv_size": [4, 2]},
+								"south": {"uv": [44, 47], "uv_size": [4, 2]},
+								"west": {"uv": [40, 47], "uv_size": [4, 2]},
+								"up": {"uv": [40, 47], "uv_size": [-4, -4]},
+								"down": {"uv": [44, 47], "uv_size": [-4, -4]}
+							}
+						},
+						{
+							"origin": [3, -2, -7],
+							"size": [4, 2, 4],
+							"uv": {
+								"north": {"uv": [20, 47], "uv_size": [4, 2]},
+								"east": {"uv": [16, 47], "uv_size": [4, 2]},
+								"south": {"uv": [28, 47], "uv_size": [4, 2]},
+								"west": {"uv": [24, 47], "uv_size": [4, 2]},
+								"up": {"uv": [24, 47], "uv_size": [-4, -4]},
+								"down": {"uv": [28, 47], "uv_size": [-4, -4]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

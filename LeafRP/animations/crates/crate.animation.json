@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.leafcrate.defualt": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.0417,
+			"bones": {
+				"Legs": {
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.leafcrate.leg": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.0417,
+			"bones": {
+				"Legs": {
+					"position": [0, 16, 0]
+				}
+			}
+		},
+		"animation.leafcrate.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.8333,
+			"bones": {
+				"Lid": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5833": [-90, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.leafcrate.open2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.8333,
+			"bones": {
+				"Lid": {
+					"rotation": {
+						"0.0": [-90, 0, 0],
+						"0.5833": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

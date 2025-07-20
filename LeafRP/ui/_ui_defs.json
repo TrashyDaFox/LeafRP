@@ -4,8 +4,6 @@
 		"ui/server_form_grid.json",
 		"ui/server_form_fullscreen.json",
 		"ui/server_form_light.json",
-		"ui/server_form_test.json",
-		"ui/server_form_tabs.json",
 		"ui/starlib2/global.jsonc",
 		"ui/starlib2/style.jsonc",
 		"ui/starlib2/package_screen/screen_template.jsonc",

@@ -4,4 +4,5 @@ tile.furry:furry_block.name=Furry Block
 entity.leaf:catgirl_npc.name=Catgirl NPC
 item.spawn_egg.entity.leaf:catgirl_npc.name=Spawn Catgirl NPC
 leaf:admin=Leaf Config Tools
+leaf:teleport_wands=Teleport Wands
 tile.leaf:code_block.name=Code Block

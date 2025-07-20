@@ -83,7 +83,7 @@
 
 	"$disable_36_slots_layout": true,
 
-	"$disable_45_slots_layout": true,
+	"$disable_45_slots_layout": false,
 
 	"$disable_54_slots_layout": false,
 

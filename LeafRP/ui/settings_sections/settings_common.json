@@ -108,5 +108,44 @@
       }
     }
     ]
+  },
+  "option_toggle_control2@common.toggle": {
+    "layer": 2,
+    "$toggle_state_binding_name|default": "$option_binding_name",
+    "$toggle_enabled_binding_name|default": "$option_enabled_binding_name",
+    "$toggle_enabled_binding_type|default": "global",
+    "size": [ "100%", "100%c" ],
+    "$binding_type": "global",
+    "$binding_condition": "once",
+    "$unchecked_control": "server_form_light.option_toggle_off",
+    "$checked_control": "server_form_light.option_toggle_on",
+    "$unchecked_hover_control": "server_form_light.option_toggle_off_hover",
+    "$checked_hover_control": "server_form_light.option_toggle_on_hover",
+    "$unchecked_locked_control": "settings_common.option_toggle_off_locked",
+    "$unchecked_locked_hover_control": "settings_common.option_toggle_off_locked",
+    "$checked_locked_control": "settings_common.option_toggle_on_locked",
+    "$checked_locked_hover_control": "settings_common.option_toggle_on_locked",
+
+    "$enable_directional_toggling": false,
+
+    "enabled": "$enabled",
+    "variables": [
+      {
+        "requires": "(not $option_enabled_binding_name or not $enabled)",
+        "$toggle_enabled_binding_name": "#not_data_bound",
+        "$toggle_enabled_binding_type": "none"
+      }
+    ]
+  },
+  "option_toggle2@settings_common.option_generic": {
+    "$control_name": "settings_common.option_toggle_control2",
+    "$option_label|default": "",
+    "$toggle_tts_header": "$option_label",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$one_line_layout": true
+      }
+    ]
   }
 }

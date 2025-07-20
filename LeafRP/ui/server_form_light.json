@@ -26,7 +26,7 @@
     },
     "long_form@common_dialogs.main_panel_no_buttons": {
         "$title_panel": "common_dialogs.standard_title_label",
-        "$title_text_color": [0.3,0.3,0.3],
+        "$title_text_color": [1.0,1.0,1.0],
 
         "$title_size": [
             "100% - 14px",
@@ -263,9 +263,9 @@
                         32
                     ],
                     "$default_text_color": [
-                        0.3,
-                        0.3,
-                        0.3
+                        1.0,
+                        1.0,
+                        1.0
                     ],
                     "$default_button_texture": "textures/ui/button_borderless_light2",
                     "$hover_button_texture": "textures/ui/button_borderless_lighthover",
@@ -293,10 +293,10 @@
             "100% - 14px",
             10
         ],
-        "$title_text_color": [0.3,0.3,0.3],
+        "$title_text_color": [1.0,1.0,1.0],
         "size": [
-            225,
-            200
+            300,
+            255
         ],
         "$text_name": "#title_text",
         "$title_text_binding_type": "none",
@@ -376,8 +376,8 @@
             },
             {
                 "submit_button@common_buttons.light_text_button": {
-                    "$default_button_texture": "textures/ui/button_borderless_light2",
-                    "$hover_button_texture": "textures/ui/button_borderless_lighthover",
+                    "$default_button_texture": "textures/example/header",
+                    "$hover_button_texture": "textures/example/button_hover",
 
                     "$pressed_button_name": "button.submit_custom_form",
                     "anchor_from": "top_left",
@@ -387,12 +387,14 @@
                         32
                     ],
                     "$default_text_color": [
-                        0.3,
-                        0.3,
-                        0.3
+                        1.0,
+                        1.0,
+                        1.0
                     ],
+                    "$button_text": "#submit_text",
+                    "$button_text_binding_type": "global",
+                    "$button_binding_condition": "once",
 
-                    "$button_text": "gui.submit",
                     "bindings": [
                         {
                             "binding_name": "#submit_button_visible",
@@ -417,8 +419,10 @@
         "$control_name": "settings_common.option_toggle_control",
         "$option_label|default": "",
         "$toggle_tts_header": "$option_label",
-        "$unchecked_control": "settings_common.option_toggle_off",
-        "$checked_control": "settings_common.option_toggle_on",
+        "$unchecked_control": "server_form_light.option_toggle_off",
+        "$checked_control": "server_form_light.option_toggle_on",
+        "$unchecked_hover_control": "server_form_light.option_toggle_off_hover",
+        "$checked_hover_control": "server_form_light.option_toggle_on_hover",
         "variables": [
             {
                 "requires": "$desktop_screen",
@@ -426,7 +430,20 @@
             }
         ]
     },
-    "custom_toggle@server_form_light.option_toggle": {
+    "option_toggle_on@settings_common.option_toggle_state_template": {
+        "texture": "textures/example/toggles/toggle_on"
+    },
+    "option_toggle_off@settings_common.option_toggle_state_template": {
+        "texture": "textures/example/toggles/toggle_off"
+    },
+    "option_toggle_on_hover@settings_common.option_toggle_state_template": {
+        "texture": "textures/example/toggles/toggle_on_hover"
+    },
+    
+    "option_toggle_off_hover@settings_common.option_toggle_state_template": {
+        "texture": "textures/example/toggles/toggle_off_hover"
+    },
+    "option_toggle_control2@common.toggle": {
         "$option_label": "#custom_text",
         "$toggle_name": "custom_toggle",
         "$toggle_state_binding_name": "#custom_toggle_state",
@@ -435,8 +452,36 @@
         "$toggle_enabled_binding_name": "#custom_toggle_enabled",
         "$toggle_enabled_binding_type": "collection",
         "$toggle_grid_collection_name": "custom_form",
-        "$unchecked_control": "settings_common.option_toggle_state_template",
-        "$checked_control": "settings_common.option_toggle_state_template",
+
+        "$label_bindings": [
+            {
+                "binding_name": "#custom_text",
+                "binding_type": "collection",
+                "binding_collection_name": "custom_form"
+            }
+        ]
+
+    },
+    "custom_toggle@settings_common.option_toggle2": {
+        "$option_label": "#custom_text",
+        "$option_tooltip_binding_type": "collection",
+        "$option_tooltip_collection_name": "custom_form",
+        "$option_tooltip_text_binding_name": "#custom_tooltip_text",
+        "$option_tooltip_area": "inside_header_panel",
+        "$option_tooltip_visible": true,
+        "$toggle_name": "custom_toggle",
+        // "$control_name": "server_form_light.option_toggle_control2",
+
+        "$toggle_state_binding_name": "#custom_toggle_state",
+        "$option_binding_name": "#custom_toggle_state",
+        "$toggle_binding_type": "collection",
+        "$toggle_enabled_binding_name": "#custom_toggle_enabled",
+        "$toggle_enabled_binding_type": "collection",
+        "$toggle_grid_collection_name": "custom_form",
+        "$unchecked_control": "server_form_light.option_toggle_off",
+        "$checked_control": "server_form_light.option_toggle_on",
+        "$unchecked_hover_control": "server_form_light.option_toggle_off_hover",
+        "$checked_hover_control": "server_form_light.option_toggle_on_hover",
         "$label_bindings": [
             {
                 "binding_name": "#custom_text",
@@ -450,6 +495,11 @@
         "$slider_name": "custom_slider",
         "$slider_value_binding_name": "#custom_slider_value",
         "$slider_tts_text_value": "#custom_slider_text_value",
+        "$option_tooltip_binding_type": "collection",
+        "$option_tooltip_collection_name": "custom_form",
+        "$option_tooltip_text_binding_name": "#custom_tooltip_text",
+        "$option_tooltip_area": "inside_header_panel",
+        "$option_tooltip_visible": true,
         "$slider_binding_type": "collection",
         "$slider_collection_name": "custom_form",
         "$slider_enabled_binding_name": "#custom_slider_enabled",
@@ -467,6 +517,11 @@
         "$slider_name": "custom_slider_step",
         "$slider_value_binding_name": "#custom_slider_step_value",
         "$slider_tts_text_value": "#custom_slider_step_text_value",
+        "$option_tooltip_binding_type": "collection",
+        "$option_tooltip_collection_name": "custom_form",
+        "$option_tooltip_text_binding_name": "#custom_tooltip_text",
+        "$option_tooltip_area": "inside_header_panel",
+        "$option_tooltip_visible": true,
         "$slider_steps_binding_type": "collection",
         "$slider_steps_binding_name": "#custom_slider_steps",
         "$label_bindings": [
@@ -512,13 +567,23 @@
             "100%",
             "100%"
         ],
-        "$default_chevron_nohover": "textures/ui/dropdown-chevron-light",
+        "$default_chevron_hover": "textures/azalea_icons/other/arrow_lower",
+        "$default_chevron_nohover": "textures/azalea_icons/other/arrow_lower",
+        "$default_chevron": "textures/azalea_icons/other/arrow_lower",
         "$button_type_panel|default": "settings_common.default_options_dropdown_toggle_button_state_content",
         "$unchecked_hover_control": "common_toggles.toggle_unchecked_hover_with_chevron",
         "$checked_hover_control": "common_toggles.toggle_checked_hover_with_chevron",
+        "$option_tooltip_binding_type": "collection",
+        "$option_tooltip_collection_name": "custom_form",
+        "$option_tooltip_text_binding_name": "#custom_tooltip_text",
+        "$option_tooltip_area": "inside_header_panel",
+        "$option_tooltip_visible": true,
+        "$pressed_texture": "textures/example/button_disabled",
+        "$pressed_no_hover_texture": "textures/example/button_hover",
         "enabled": "$enabled",
-        "$default_text_color|default": [0.3,0.3,0.3],
-        "$default_texture|default": "textures/ui/button_borderless_light2",
+        "$default_text_color|default": [1.0,1.0,1.0],
+        "$default_texture|default": "textures/example/button",
+        "$hover_texture|default": "textures/example/button_hover",
         "$toggle_enabled_binding_name|default": "$option_enabled_binding_name",
         "$toggle_enabled_binding_type|default": "global",
         "$toggle_binding_type|default": "global",
@@ -540,6 +605,11 @@
             "100%",
             "100%c"
         ],
+        "$option_tooltip_binding_type": "collection",
+        "$option_tooltip_collection_name": "custom_form",
+        "$option_tooltip_text_binding_name": "#custom_tooltip_text",
+        "$option_tooltip_area": "inside_header_panel",
+        "$option_tooltip_visible": true,
         "controls": [
             {
                 "dropdown@server_form_light.option_dropdown": {
@@ -606,6 +676,11 @@
     "$option_text_edit_control_size|default": [ "100%", "30px" ],
     "size": "$option_text_edit_control_size",
     "max_length": "$max_text_edit_length",
+    "$option_tooltip_binding_type": "collection",
+    "$option_tooltip_collection_name": "custom_form",
+    "$option_tooltip_text_binding_name": "#custom_tooltip_text",
+    "$option_tooltip_area": "inside_header_panel",
+    "$option_tooltip_visible": true,
     "$text_edit_box_content_binding_name": "$option_binding_name",
     "$text_edit_box_binding_collection_name": "$option_binding_name",
     "$text_background_default": "common.edit_box_indent2",
@@ -640,6 +715,11 @@
         "$text_edit_box_placeholder_content_binding_type": "collection",
         "$text_edit_box_grid_collection_name": "custom_form",
         "$max_text_edit_length": 100,
+        "$option_tooltip_binding_type": "collection",
+        "$option_tooltip_collection_name": "custom_form",
+        "$option_tooltip_text_binding_name": "#custom_tooltip_text",
+        "$option_tooltip_area": "inside_header_panel",
+        "$option_tooltip_visible": true,
         "$text_edit_box_content_binding_type": "collection",
         "$text_edit_box_content_binding_name": "#custom_input_text",
         "$option_binding_name": "#custom_input_text",

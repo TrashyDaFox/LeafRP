@@ -1,6 +1,13 @@
 {
    "leaf:code_block" : {
       "sound" : "stone",
-      "textures" : "code_block"
+      "textures" : {
+         "down" : "code_block_bottom",
+         "east" : "code_block_side",
+         "north" : "code_block_side",
+         "south" : "code_block_side",
+         "up" : "code_block_top",
+         "west" : "code_block_side"
+      }
    }
 }

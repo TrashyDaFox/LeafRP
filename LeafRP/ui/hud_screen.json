@@ -17,7 +17,7 @@
           "anchor_to": "center",
           "color": [1,1,1],
           "layer": 31,
-                      "text": "#text",
+			"text": "#text",
           "localize": false,
           "alpha": 1,
           "bindings": [

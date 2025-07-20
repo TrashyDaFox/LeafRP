@@ -12,7 +12,37 @@
       "textures": "textures/items/playershop"
     },
     "admin_ui": {
-      "textures": "textures/items/settings"
+      "textures": "textures/items/config_ui"
+    },
+    "wand1": {
+      "textures": "textures/items/pearl_wand"
+    },
+    "wand2": {
+      "textures": "textures/items/eye_wand"
+    },
+    "wand3": {
+      "textures": "textures/items/iron_wand"
+    },
+    "wand4": {
+      "textures": "textures/items/gold_wand"
+    },
+    "wand5": {
+      "textures": "textures/items/copper_wand"
+    },
+    "wand6": {
+      "textures": "textures/items/diamond_wand"
+    },
+    "wand7": {
+      "textures": "textures/items/amethyst_wand"
+    },
+    "wand8": {
+      "textures": "textures/items/emerald_wand"
+    },
+    "wand9": {
+      "textures": "textures/items/ruby_wand"
+    },
+    "admin_menu": {
+      "textures": "textures/azalea_icons/icontextures/mf_items_bakery_misc_6"
     },
     "key": {
       "textures": "textures/items/cobblestone_key"
@@ -28,6 +58,9 @@
     },
     "warps": {
       "textures": "textures/items/warps"
+    },
+    "chunk_border": {
+      "textures": "textures/items/chunk_border"
     },
     "block_editor": {
       "textures": "textures/items/block_editor"

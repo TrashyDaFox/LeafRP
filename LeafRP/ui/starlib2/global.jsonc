@@ -221,7 +221,7 @@
           "name": "buttons",
           "control_ids": {
             "button": "server_form.advanced_dynamic_button",
-            "label": "@server_form.dynamic_label",
+            "label": "@server_form.advanced_dynamic_label",
             "header": "@server_form.dynamic_header",
             "divider": "@settings_common.option_group_section_divider"
         }

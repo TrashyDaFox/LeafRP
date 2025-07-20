@@ -930,6 +930,18 @@
                     "$key": "§t§h§e§m§0§1§b§s§0§1",
                     "$control": "server_form.header_basic"
                 }
+            },
+            {
+                "pride@global.title_binding": {
+                    "$key": "§t§h§e§m§0§1§g§a§1",
+                    "$control": "server_form.header_pride"
+                }
+            },
+            {
+                "pride_-_trans@global.title_binding": {
+                    "$key": "§t§h§e§m§0§1§g§a§2",
+                    "$control": "server_form.header_pride_-_trans"
+                }
             }
         ]
     },
@@ -978,67 +990,67 @@
     "advanced_button@starlib_pkg_button_templates.horizontal_button_template": {
         "$BUTTON_STYLE_default_variable_controls": [
             {
-                "default_default@starlib_pkg_button_style.reverse_style_variable": {
+                "default_defaultb@starlib_pkg_button_style.reverse_style_variable": {
                     "texture": "textures/example/button",
                     "$key": "§a§l§t§b§t§n"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_defaulta@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/header",
                     "$key": "§a§l§t§b§t§n"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default9@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerocean",
                     "$key": "§a§l§t§b§t§n§o§c§e§a§n"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default8@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headercandy",
                     "$key": "§a§l§t§b§t§n§c§d§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default7@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerblue1",
                     "$key": "§a§l§t§b§t§n§b§l§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default6@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerpurple1",
                     "$key": "§a§l§t§b§t§n§p§r§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default5@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerredpurple",
                     "$key": "§a§l§t§b§t§n§r§p§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default4@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerbatch08",
                     "$key": "§a§l§t§b§t§n§b§t§0§8"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default3@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headeruwu1",
                     "$key": "§a§l§t§b§t§n§u§w§u§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default2@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerblossomessentials",
                     "$key": "§a§l§t§b§t§n§b§l§o§s§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_default1@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headergrass",
                     "$key": "§a§l§t§b§t§n§g§r§1"
                 }
@@ -1062,31 +1074,31 @@
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_defaultz@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerpinkorchid",
                     "$key": "§a§l§t§b§t§n§p§o§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_defaultzz@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headercottonsky",
                     "$key": "§a§l§t§b§t§n§c§s§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_defaultzzz@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerfrostedpetals",
                     "$key": "§a§l§t§b§t§n§f§p§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_defaultzzzz@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headerverdantbloom",
                     "$key": "§a§l§t§b§t§n§v§b§1"
                 }
             },
             {
-                "alt_default@starlib_pkg_button_style.style_variable": {
+                "alt_defaultzzzzz@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/dogshit",
                     "$key": "§a§l§t§b§t§n§d§s§1"
                 }
@@ -1134,7 +1146,7 @@
                 }
             },
             {
-                "alec's_theme_:3_default@starlib_pkg_button_style.style_variable": {
+                "alecs_theme__default@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headeralec",
                     "$key": "§a§l§t§b§t§n§a§l§1"
                 }
@@ -1146,7 +1158,7 @@
                 }
             },
             {
-                "uwu_#2_default@starlib_pkg_button_style.style_variable": {
+                "uwu_2_default@starlib_pkg_button_style.style_variable": {
                     "texture": "textures/example/headeruwu2",
                     "$key": "§a§l§t§b§t§n§u§w§u§2"
                 }
@@ -1318,6 +1330,18 @@
                     "texture": "textures/example/button",
                     "$key": "§a§l§t§b§t§n§b§s§0§1"
                 }
+            },
+            {
+                "pride_default@starlib_pkg_button_style.style_variable": {
+                    "texture": "textures/example/headerpride",
+                    "$key": "§a§l§t§b§t§n§g§a§1"
+                }
+            },
+            {
+                "pride_-_trans_default@starlib_pkg_button_style.style_variable": {
+                    "texture": "textures/example/headerpride2",
+                    "$key": "§a§l§t§b§t§n§g§a§2"
+                }
             }
         ]
     },
@@ -1327,6 +1351,92 @@
     "close_button_light_default@style.image": {
         "texture": "textures/example/light/button"
     },
+    "advanced_dynamic_label": {
+        "type": "panel",
+        "size": [
+            "100%",
+            "100%c"
+        ],
+        "controls": [
+            {
+                "dynamic_label@settings_common.option_group_spaced_label": {
+                    "$text": "#form_button_text",
+                    "$text_bindings": [
+                        {
+                            "binding_name": "#form_button_text",
+                            "binding_type": "collection",
+                            "binding_collection_name": "form_buttons"
+                        },
+                        {
+                            "binding_type": "view",
+                            "source_property_name": "((#form_button_text - 'textures/leaf_dyn_images/') = #form_button_text)",
+                            "target_property_name": "#visible"
+                        }
+                    ]
+                }
+            },
+            {
+                "dynamic_image": {
+                    "type": "image",
+        "bilinear": true,
+        "size": [
+            "100%",
+            75
+        ],
+        "fill": true,
+        "keep_ratio": true,
+        "texture": "#texture",
+        "$fit_to_width": true,
+        "bindings":[
+            {
+              "binding_name": "#form_button_text",
+              "binding_type": "collection",
+              "binding_collection_name": "form_buttons"
+            },
+            {
+                "binding_type": "view",
+                "source_property_name": "#form_button_text",
+                "target_property_name": "#texture"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not ((#form_button_text - 'textures/leaf_dyn_images/') = #form_button_text))",
+              "target_property_name": "#visible"
+            }
+        ]
+                }
+            }
+        ]
+    },
+    // "advanced_dynamic_label": {
+    //     "type": "image",
+    //     "bilinear": true,
+    //     "size": [
+    //         "100%",
+    //         75
+    //     ],
+    //     "fill": true,
+    //     "keep_ratio": true,
+    //     "texture": "#texture",
+    //     "$fit_to_width": true,
+    //     "bindings":[
+    //         {
+    //           "binding_name": "#form_button_text",
+    //           "binding_type": "collection",
+    //           "binding_collection_name": "form_buttons"
+    //         },
+    //         {
+    //             "binding_type": "view",
+    //             "source_property_name": "#form_button_text",
+    //             "target_property_name": "#texture"
+    //         },
+    //         {
+    //           "binding_type": "view",
+    //           "source_property_name": "(not ((#form_button_text - 'textures/leaf_dyn_images/') = #form_button_text))",
+    //           "target_property_name": "#visible"
+    //         }
+    //     ]
+    // },
     "advanced_dynamic_button@starlib_pkg_dynamic_structure.dynamic_item_template": {
         "$DYNAMIC_ITEM_entry": "starlib_pkg_dynamic_sizer.common_auto_sizer",
         "$VERTICAL_PROCESSING_output_control": "server_form.advanced_button",
@@ -1356,7 +1466,15 @@
             }
         ]
     },
-    "vertical_sizer@starlib_pkg_dynamic_structure.vertical_sizer_template": {},
+    "vertical_sizer@starlib_pkg_dynamic_structure.vertical_sizer_template": {
+        // "$VERTICAL_SIZER_controls": [
+        //     {
+        //         "size_default@global.reverse_binding": {
+        //             "$key": "§i§m§g"
+        //         }
+        //     }
+        // ]
+    },
     "long_form": {
         "type": "panel",
         "size": [
@@ -1364,6 +1482,7 @@
             "100%"
         ],
         "controls": [
+
             {
                 "long_form@common_dialogs.main_panel_no_buttons": {
                     "$title_panel": "common_dialogs.standard_title_label",
@@ -1391,6 +1510,86 @@
                     ]
                 }
             },
+            // {
+            //     "long_form@starlib_pkg_screen_template.screen": {
+            //         "bindings": [
+            //             {
+            //                 "binding_name": "#title_text"
+            //             },
+            //             {
+            //                 "binding_type": "view",
+            //                 "source_property_name": "(((#title_text - '§c§h§e§s§t') = #title_text) and ((#title_text - '§f§u§l§l') = #title_text) and ((#title_text - '§g§r§i§d§u§i') = #title_text) and ((#title_text - '§t§e§s§t') = #title_text) and ((#title_text - '§l§i§g§h§t') = #title_text) and ((#title_text - '§t§a§b§b§e§d') = #title_text) and (not ((#title_text - '§f§0§0') = #title_text)) and (not ((#title_text - '§p§l§0§1') = #title_text)))",
+            //                 "target_property_name": "#visible"
+            //             }
+            //         ],
+            //         "$SCREEN_TEMPLATE_fade_enabled": true,
+            //         "$form_size": [
+            //             420,
+            //             255
+            //         ],
+            //         "$COMMON_PAPERDOLL_size": [
+            //             "33.3%",
+            //             "100%"
+            //         ],
+            //         "$COMMON_PAPERDOLL_background_texture": "textures/example/paperdoll",
+            //         "$PAPERDOLL_offset": [
+            //             0,
+            //             -30
+            //         ],
+            //         "$CONTENT_enable_paperdoll": true,
+            //         "$CONTENT_between_contents_padding_size": [
+            //             5,
+            //             0
+            //         ],
+            //         "$FORM_TEMPLATE_header_control": "starlib_pkg_dynamic_common.common_dynamic_header",
+            //         "$FORM_TEMPLATE_background_texture": "textures/example/border",
+            //         "$FORM_TEMPLATE_content_size": [
+            //             "100% - 20px",
+            //             "100% - 16px"
+            //         ],
+            //         "$HORIZONTAL_BUTTON_size": [
+            //             "100% - 2px",
+            //             "100% - 2px"
+            //         ],
+            //         "$SCROLLING_CONTENT_main_control": "global.button_factory_2",
+            //         "$DYNAMIC_HEADER_background_control": "style.black",
+            //         "$DYNAMIC_HEADER_style_control": "server_form.header",
+            //         "$DYNAMIC_HEADER_close_button_control": "server_form.close_button",
+            //         "$DYNAMIC_HEADER_header_contents_control": "server_form.header_buttons_factory",
+            //         "$button_item_control": "server_form.advanced_dynamic_button",
+            //         "$COMMON_BUTTON_hover_control": "server_form.hover",
+            //         "$COMMON_BUTTON_panel_control": "starlib_pkg_button_common.disabled_variable_button_panel",
+            //         "$COMMON_BUTTON_style_control": "starlib_pkg_button_style.disabled_variable_button_style",
+            //         "$BUTTON_STYLE_disabled_variable_key": "§p§3§0",
+            //         "$BUTTON_STYLE_default_variable_texture": "textures/example/button",
+            //         "$BUTTON_STYLE_disabled_variable_texture": "textures/example/button_disabled",
+            //         "$HORIZONTAL_BUTTON_image_background_texture": "textures/example/none",
+            //         "$BUTTON_SIZER_left_third": "§p§1§1",
+            //         "$BUTTON_SIZER_right_third": "§p§2§1",
+            //         "$BUTTON_SIZER_left_half": "§p§1§2",
+            //         "$BUTTON_SIZER_right_half": "§p§2§2",
+            //         "$VERTICAL_PROCESSING_no_height_key": "§p§0§0",
+            //         "$DYNAMIC_ITEM_entry": "starlib_pkg_dynamic_sizer.common_auto_sizer",
+            //         "$VERTICAL_PROCESSING_output_control": "server_form.advanced_button",
+            //         "$DYNAMIC_ITEM_bindings": [
+            //             {
+            //                 "binding_collection_name": "form_buttons",
+            //                 "binding_name": "#form_button_text",
+            //                 "binding_type": "collection"
+            //             },
+            //             {
+            //                 "binding_type": "view",
+            //                 "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
+            //                 "target_property_name": "#visible"
+            //             },
+            //             {
+            //                 "binding_type": "view",
+            //                 "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
+            //                 "target_property_name": "#enabled"
+            //             }
+            //         ]
+            //     }
+            // },
             {
                 "long_form@starlib_pkg_screen_template.screen": {
                     "bindings": [
@@ -1399,138 +1598,150 @@
                         },
                         {
                             "binding_type": "view",
-                            "source_property_name": "(((#title_text - '§c§h§e§s§t') = #title_text) and ((#title_text - '§f§u§l§l') = #title_text) and ((#title_text - '§g§r§i§d§u§i') = #title_text) and ((#title_text - '§t§e§s§t') = #title_text) and ((#title_text - '§l§i§g§h§t') = #title_text) and ((#title_text - '§t§a§b§b§e§d') = #title_text) and (not ((#title_text - '§f§0§0') = #title_text)) and (not ((#title_text - '§p§l§0§1') = #title_text)))",
+                            "source_property_name": "(((#title_text - '§c§h§e§s§t') = #title_text) and ((#title_text - '§f§u§l§l') = #title_text) and ((#title_text - '§g§r§i§d§u§i') = #title_text) and ((#title_text - '§t§e§s§t') = #title_text) and ((#title_text - '§l§i§g§h§t') = #title_text) and ((#title_text - '§t§a§b§b§e§d') = #title_text) and (not ((#title_text - '§f§0§0') = #title_text)))",
                             "target_property_name": "#visible"
                         }
                     ],
-                    "$SCREEN_TEMPLATE_fade_enabled": true,
-                    "$form_size": [
-                        420,
-                        255
-                    ],
-                    "$COMMON_PAPERDOLL_size": [
-                        "33.3%",
-                        "100%"
-                    ],
-                    "$COMMON_PAPERDOLL_background_texture": "textures/example/paperdoll",
-                    "$PAPERDOLL_offset": [
-                        0,
-                        -30
-                    ],
-                    "$CONTENT_enable_paperdoll": true,
-                    "$CONTENT_between_contents_padding_size": [
-                        5,
-                        0
-                    ],
-                    "$FORM_TEMPLATE_header_control": "starlib_pkg_dynamic_common.common_dynamic_header",
-                    "$FORM_TEMPLATE_background_texture": "textures/example/border",
-                    "$FORM_TEMPLATE_content_size": [
-                        "100% - 20px",
-                        "100% - 16px"
-                    ],
-                    "$HORIZONTAL_BUTTON_size": [
-                        "100% - 2px",
-                        "100% - 2px"
-                    ],
-                    "$SCROLLING_CONTENT_main_control": "global.button_factory_2",
-                    "$DYNAMIC_HEADER_background_control": "style.black",
-                    "$DYNAMIC_HEADER_style_control": "server_form.header",
-                    "$DYNAMIC_HEADER_close_button_control": "server_form.close_button",
-                    "$DYNAMIC_HEADER_header_contents_control": "server_form.header_buttons_factory",
-                    "$button_item_control": "server_form.advanced_dynamic_button",
-                    "$COMMON_BUTTON_hover_control": "server_form.hover",
-                    "$COMMON_BUTTON_panel_control": "starlib_pkg_button_common.disabled_variable_button_panel",
-                    "$COMMON_BUTTON_style_control": "starlib_pkg_button_style.disabled_variable_button_style",
-                    "$BUTTON_STYLE_disabled_variable_key": "§p§3§0",
-                    "$BUTTON_STYLE_default_variable_texture": "textures/example/button",
-                    "$BUTTON_STYLE_disabled_variable_texture": "textures/example/button_disabled",
-                    "$HORIZONTAL_BUTTON_image_background_texture": "textures/example/none",
-                    "$BUTTON_SIZER_left_third": "§p§1§1",
-                    "$BUTTON_SIZER_right_third": "§p§2§1",
-                    "$BUTTON_SIZER_left_half": "§p§1§2",
-                    "$BUTTON_SIZER_right_half": "§p§2§2",
-                    "$VERTICAL_PROCESSING_no_height_key": "§p§0§0",
-                    "$DYNAMIC_ITEM_entry": "starlib_pkg_dynamic_sizer.common_auto_sizer",
-                    "$VERTICAL_PROCESSING_output_control": "server_form.advanced_button",
-                    "$DYNAMIC_ITEM_bindings": [
+                    "$forms_holder_controls": [
                         {
-                            "binding_collection_name": "form_buttons",
-                            "binding_name": "#form_button_text",
-                            "binding_type": "collection"
+                            "nopaperdoll@global.reverse_title_binding": {
+                                "$SCREEN_TEMPLATE_fade_enabled": true,
+                                "$SCROLLING_CONTENT_main_control": "global.button_factory_2",
+                                "$FORM_TEMPLATE_header_control": "starlib_pkg_dynamic_common.common_dynamic_header",
+                                "$FORM_TEMPLATE_background_texture": "textures/example/border",
+                                "$FORM_TEMPLATE_content_size": [
+                                    "100% - 20px",
+                                    "100% - 16px"
+                                ],
+
+                                "$CONTENT_between_contents_padding_size": [
+                                    0,
+                                    0
+                                ],
+                                "$DYNAMIC_HEADER_background_control": "style.black",
+                                "$DYNAMIC_HEADER_style_control": "server_form.header",
+                                "$DYNAMIC_HEADER_close_button_control": "server_form.close_button",
+                                "$DYNAMIC_HEADER_header_contents_control": "server_form.header_buttons_factory",
+                                "$button_item_control": "server_form.advanced_dynamic_button",
+                                "$COMMON_BUTTON_hover_control": "server_form.hover",
+                                "$COMMON_BUTTON_panel_control": "starlib_pkg_button_common.disabled_variable_button_panel",
+                                "$COMMON_BUTTON_style_control": "starlib_pkg_button_style.disabled_variable_button_style",
+                                "$BUTTON_STYLE_disabled_variable_key": "§p§3§0",
+                                "$BUTTON_STYLE_default_variable_texture": "textures/example/button",
+                                "$BUTTON_STYLE_disabled_variable_texture": "textures/example/button_disabled",
+                                "$HORIZONTAL_BUTTON_image_background_texture": "textures/example/none",
+                                "$BUTTON_SIZER_left_third": "§p§1§1",
+                                "$BUTTON_SIZER_right_third": "§p§2§1",
+                                "$BUTTON_SIZER_left_half": "§p§1§2",
+                                "$BUTTON_SIZER_right_half": "§p§2§2",
+                                "$VERTICAL_PROCESSING_no_height_key": "§p§0§0",
+                                "$DYNAMIC_ITEM_entry": "starlib_pkg_dynamic_sizer.common_auto_sizer",
+                                "$VERTICAL_PROCESSING_output_control": "server_form.advanced_button",
+                                "$control": "starlib_pkg_screen_template.form_template",
+                                "$key": "§p§l§0§1",
+                                "$form_size": [300, 255],
+                                "$DYNAMIC_ITEM_bindings": [
+                                    {
+                                        "binding_collection_name": "form_buttons",
+                                        "binding_name": "#form_button_text",
+                                        "binding_type": "collection"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
+                                        "target_property_name": "#visible"
+                                    },
+
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
+                                        "target_property_name": "#enabled"
+                                    }
+                                ],
+                                "size": [
+                                    "100%c",
+                                    "100%c"
+                                ]
+                            }
                         },
+
                         {
-                            "binding_type": "view",
-                            "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
-                            "target_property_name": "#visible"
-                        },
-                        {
-                            "binding_type": "view",
-                            "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
-                            "target_property_name": "#enabled"
+                            "paperdoll@global.title_binding": {
+                                "$SCREEN_TEMPLATE_fade_enabled": true,
+                                "$SCROLLING_CONTENT_main_control": "global.button_factory_2",
+                                "$FORM_TEMPLATE_header_control": "starlib_pkg_dynamic_common.common_dynamic_header",
+                                "$FORM_TEMPLATE_background_texture": "textures/example/border",
+                                "$FORM_TEMPLATE_content_size": [
+                                    "100% - 20px",
+                                    "100% - 16px"
+                                ],
+                                "$HORIZONTAL_BUTTON_size": [
+                                    "100% - 2px",
+                                    "100% - 2px"
+                                ],
+                                "$COMMON_PAPERDOLL_size": [
+                                    "33.3%",
+                                    "100%"
+                                ],
+                                "$CONTENT_enable_paperdoll": true,
+                                "$COMMON_PAPERDOLL_background_texture": "textures/example/paperdoll",
+                                "$PAPERDOLL_offset": [
+                                    0,
+                                    -30
+                                ],
+                                "$CONTENT_between_contents_padding_size": [
+                                    5,
+                                    0
+                                ],
+                                "$control": "starlib_pkg_screen_template.form_template",
+                                "$DYNAMIC_HEADER_background_control": "style.black",
+                                "$DYNAMIC_HEADER_style_control": "server_form.header",
+                                "$DYNAMIC_HEADER_close_button_control": "server_form.close_button",
+                                "$DYNAMIC_HEADER_header_contents_control": "server_form.header_buttons_factory",
+                                "$button_item_control": "server_form.advanced_dynamic_button",
+                                "$COMMON_BUTTON_hover_control": "server_form.hover",
+                                "$COMMON_BUTTON_panel_control": "starlib_pkg_button_common.disabled_variable_button_panel",
+                                "$COMMON_BUTTON_style_control": "starlib_pkg_button_style.disabled_variable_button_style",
+                                "$BUTTON_STYLE_disabled_variable_key": "§p§3§0",
+                                "$BUTTON_STYLE_default_variable_texture": "textures/example/button",
+                                "$BUTTON_STYLE_disabled_variable_texture": "textures/example/button_disabled",
+                                "$HORIZONTAL_BUTTON_image_background_texture": "textures/example/none",
+                                "$BUTTON_SIZER_left_third": "§p§1§1",
+                                "$BUTTON_SIZER_right_third": "§p§2§1",
+                                "$BUTTON_SIZER_left_half": "§p§1§2",
+                                "$BUTTON_SIZER_right_half": "§p§2§2",
+                                "$VERTICAL_PROCESSING_no_height_key": "§p§0§0",
+                                "$DYNAMIC_ITEM_entry": "starlib_pkg_dynamic_sizer.common_auto_sizer",
+                                "$VERTICAL_PROCESSING_output_control": "server_form.advanced_button",
+            
+                                "$key": "§p§l§0§1",
+                                "$form_size": [420, 255],
+                                "$DYNAMIC_ITEM_bindings": [
+                                    {
+                                        "binding_collection_name": "form_buttons",
+                                        "binding_name": "#form_button_text",
+                                        "binding_type": "collection"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
+                                        "target_property_name": "#visible"
+                                    },
+
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
+                                        "target_property_name": "#enabled"
+                                    }
+                                ],
+                                "size": [
+                                    "100%c",
+                                    "100%c"
+                                ]
+                            }
                         }
                     ]
-                }
-            },
-            {
-                "long_form@starlib_pkg_screen_template.screen": {
-                    "$SCREEN_TEMPLATE_fade_enabled": true,
-                    "bindings": [
-                        {
-                            "binding_name": "#title_text"
-                        },
-                        {
-                            "binding_type": "view",
-                            "source_property_name": "(((#title_text - '§c§h§e§s§t') = #title_text) and ((#title_text - '§f§u§l§l') = #title_text) and ((#title_text - '§g§r§i§d§u§i') = #title_text) and ((#title_text - '§t§e§s§t') = #title_text) and ((#title_text - '§l§i§g§h§t') = #title_text) and ((#title_text - '§t§a§b§b§e§d') = #title_text) and (not ((#title_text - '§f§0§0') = #title_text)) and ((#title_text - '§p§l§0§1') = #title_text))",
-                            "target_property_name": "#visible"
-                        }
-                    ],
-                    "$SCROLLING_CONTENT_main_control": "global.button_factory_2",
-                    "$FORM_TEMPLATE_header_control": "starlib_pkg_dynamic_common.common_dynamic_header",
-                    "$FORM_TEMPLATE_background_texture": "textures/example/border",
-                    "$FORM_TEMPLATE_content_size": [
-                        "100% - 20px",
-                        "100% - 16px"
-                    ],
-                    "$HORIZONTAL_BUTTON_size": [
-                        "100% - 2px",
-                        "100% - 2px"
-                    ],
-                    "$DYNAMIC_HEADER_background_control": "style.black",
-                    "$DYNAMIC_HEADER_style_control": "server_form.header",
-                    "$DYNAMIC_HEADER_close_button_control": "server_form.close_button",
-                    "$DYNAMIC_HEADER_header_contents_control": "server_form.header_buttons_factory",
-                    "$button_item_control": "server_form.advanced_dynamic_button",
-                    "$COMMON_BUTTON_hover_control": "server_form.hover",
-                    "$COMMON_BUTTON_panel_control": "starlib_pkg_button_common.disabled_variable_button_panel",
-                    "$COMMON_BUTTON_style_control": "starlib_pkg_button_style.disabled_variable_button_style",
-                    "$BUTTON_STYLE_disabled_variable_key": "§p§3§0",
-                    "$BUTTON_STYLE_default_variable_texture": "textures/example/button",
-                    "$BUTTON_STYLE_disabled_variable_texture": "textures/example/button_disabled",
-                    "$HORIZONTAL_BUTTON_image_background_texture": "textures/example/none",
-                    "$BUTTON_SIZER_left_third": "§p§1§1",
-                    "$BUTTON_SIZER_right_third": "§p§2§1",
-                    "$BUTTON_SIZER_left_half": "§p§1§2",
-                    "$BUTTON_SIZER_right_half": "§p§2§2",
-                    "$VERTICAL_PROCESSING_no_height_key": "§p§0§0",
-                    "$DYNAMIC_ITEM_entry": "starlib_pkg_dynamic_sizer.common_auto_sizer",
-                    "$VERTICAL_PROCESSING_output_control": "server_form.advanced_button",
-                    "$DYNAMIC_ITEM_bindings": [
-                        {
-                            "binding_collection_name": "form_buttons",
-                            "binding_name": "#form_button_text",
-                            "binding_type": "collection"
-                        },
-                        {
-                            "binding_type": "view",
-                            "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
-                            "target_property_name": "#visible"
-                        },
-                        {
-                            "binding_type": "view",
-                            "source_property_name": "((#form_button_text - '§p§4§0') = #form_button_text)",
-                            "target_property_name": "#enabled"
-                        }
-                    ]
+                    
                 }
             },
             {
@@ -1562,6 +1773,7 @@
             },
             {
                 "long_form_light@common_dialogs.main_panel_no_buttons": {
+                    "ignored": true,
                     "$title_panel": "common_dialogs.standard_title_label",
                     "$title_size": [
                         "100% - 14px",
@@ -1665,6 +1877,7 @@
             },
             {
                 "main_screen_contentfdssdf": {
+                    "ignored": true,
                     "type": "stack_panel",
                     "size": [
                         370,
@@ -1730,38 +1943,10 @@
             }
         ]
     },
-    "third_party_server_screen@common.base_screen": {
-        "type": "screen",
-        "size": [
-            "100%",
-            "100%"
-        ],
-        "anchor_from": "top_left",
-        "anchor_to": "top_left",
-        "$screen_content": "server_form.main_screen_content",
-        "$screen_animations": [
-            "@server_form.exit_wait"
-        ],
-        "$background_animations": [
-            "@server_form.exit_wait"
-        ],
-        "force_render_below": true,
-        "low_frequency_rendering": true,
-        "load_screen_immediately": true,
-        "render_only_when_topmost": false,
-        "render_game_behind": true,
-        "button_mappings": [
-            {
-                "from_button_id": "button.menu_cancel",
-                "to_button_id": "button.menu_exit",
-                "mapping_type": "global"
-            }
-        ]
-    },
     "exit_wait": {
         "anim_type": "offset",
         "easing": "linear",
-        "duration": 0,
+        "duration": 1,
         "from": [
             0,
             0
@@ -1791,7 +1976,7 @@
             "100%"
         ],
         "$flag_form_title": "Code Editor",
-        "$flag_light": "§l§i§g§h§t",
+        "$flag_light": "§c§h§e§r§r§y",
         "controls": [
             {
                 "custom_form@server_form.custom_form": {
@@ -2210,5 +2395,11 @@
     },
     "header_basic@style.image": {
         "texture": "textures/example/button"
+    },
+    "header_pride@style.image": {
+        "texture": "textures/example/headerpride"
+    },
+    "header_pride_-_trans@style.image": {
+        "texture": "textures/example/headerpride2"
     }
 }

@@ -6,6 +6,15 @@
 	"texture_data": {
 		"code_block": {
 			"textures": "textures/blocks/code_block"
+		},
+		"code_block_side": {
+			"textures": "textures/blocks/code_block_side"
+		},
+		"code_block_top": {
+			"textures": "textures/blocks/code_block_top"
+		},
+		"code_block_bottom": {
+			"textures": "textures/blocks/code_block_bottom"
 		}
 	}
 }

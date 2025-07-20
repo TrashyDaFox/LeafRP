@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "leaf:crate",
+            "geometry": {
+                "default": "geometry.leafcrate"
+            },
+            "textures": {
+                "default": "textures/entity/crates/crate1",
+                "crate2": "textures/entity/crates/crate2",
+                "crate3": "textures/entity/crates/crate3",
+                "crate4": "textures/entity/crates/crate4",
+                "crate5": "textures/entity/crates/crate5",
+                "crate6": "textures/entity/crates/crate6"
+            },
+            "materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": ["controller.render.leafcrate"],
+            "spawn_egg": {
+				"base_color": "#3a40ff",
+				"overlay_color": "#272180"
+			}
+        }
+    }
+}
